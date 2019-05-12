@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+
+$warm_yellow: #EAC67A;
+$rusty_red: #984B43;
+$navy_blue: #18121E;
+$gun_metal: #233237;
+
+body {
+     margin: 0;
+     background: $navy_blue;
+     font-family: 'Roboto', sans-serif;
+     height: 100vh;
+     
+}
+
+
+html{
+      overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent;  
+}

@@ -1,0 +1,66 @@
+$warm_yellow: #EAC67A;
+$rusty_red: #984B43;
+$navy_blue: #18121E;
+$gun_metal: #233237;
+
+@media screen and (max-width: 1440px),(max-height: 900px) {
+    .navbar {
+        z-index: 999;
+        position: relative;
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 0px;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        ul {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+            list-style-type: none;
+            background: $navy_blue;
+        }
+        li {
+            width: 226px;
+            height: 50px;
+            padding: 0px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+
+        }
+        a {
+            color: $warm_yellow;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .logo {
+            width: 32px;
+            height: 50px;
+            vertical-align: center;
+            
+        }
+        .prvi {
+            width: 226px;
+            text-align: left;
+        }
+        .drugi {
+            width: 202px;
+            text-align: left;
+        }
+        .treci {
+            width: 202px;
+            text-align: right;
+        }
+        .cetvrti {
+            margin: 0px;
+            width: 226px;
+            text-align: right;
+        }
+    }
+}

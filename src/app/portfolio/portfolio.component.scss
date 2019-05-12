@@ -1,0 +1,90 @@
+/* PORTFOLIO */
+
+$warm_yellow: #EAC67A;
+$rusty_red: #984B43;
+$navy_blue: #18121E;
+$gun_metal: #233237;
+
+.portfolio_container {
+    padding-top: 0px;
+    h1 {
+        z-index: 5;
+        position: absolute;
+        padding-top: 16px;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: white;
+    }
+    p {
+        z-index: 5;
+        position: inline;
+        padding: 38px 16px 0px 16px;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 1.6;
+        color: white;
+    }
+}
+
+.portfolio_wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 210px 210px 210px 210px;
+    grid-template-rows: 700px;
+    grid-column-gap: 16px;
+}
+
+.col {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 700;
+    border-radius: 0px 0px 139px 139px;
+}
+
+.photoretouch {
+    background-image: url("../../assets/img/photoretouch/tirkizna.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.illustration {
+    background-image: url("../../assets/img/illustration/self_portret.png");
+    background-position: -200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.motion_design {
+    background-image: url("../../assets/img/motion_design/tctn_intro.png");
+    background-position: -536px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web_design {
+    background-image: url("../../assets/img/web_design/philldansmore.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shadow_top {
+    position: absolute;
+    z-index: 3;
+    height: 600px;
+    width: 210px;
+    background-image: linear-gradient(to top, rgba(24, 18, 30, 0), rgba(24, 18, 30, 1));
+}
+
+.status_bar {
+    z-index: 5;
+    display: inline;
+    width: 210px;
+    height: 5px;
+    position: absolute;
+    background: $rusty_red;
+}
